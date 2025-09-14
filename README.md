@@ -13,13 +13,6 @@ bin/magento cache:flush
 ## Usage
 Make a test payment in Magento. In the Stripe Dashboard, open **Developers → Webhooks**, select your Magento endpoint (typically `/stripe/webhooks`), and locate the relevant **Event delivery**. Copy the **request JSON**, then POST it to your local webhook endpoint (e.g., `https://your.local/stripe/webhooks`) using Postman or `curl` with `Content-Type: application/json`. With this module enabled, the request is accepted even without the `Stripe-Signature` header and the event is processed as if it arrived from Stripe.
 
-Example:
-```bash
-curl -X POST https://your.local/stripe/webhooks \
-  -H "Content-Type: application/json" \
-  --data-binary @/path/to/stripe-event.json
-```
-
 ## Uninstall
 ```bash
 bin/magento module:disable AimaneCouissi_StripeWebhookSignatureBypass
