@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-stripe-webhook-signature-bypass/v)](https://packagist.org/packages/aimanecouissi/module-stripe-webhook-signature-bypass) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-stripe-webhook-signature-bypass/downloads)](https://packagist.org/packages/aimanecouissi/module-stripe-webhook-signature-bypass) [![Latest Unstable Version](http://poser.pugx.org/aimanecouissi/module-stripe-webhook-signature-bypass/v/unstable)](https://packagist.org/packages/aimanecouissi/module-stripe-webhook-signature-bypass) [![License](http://poser.pugx.org/aimanecouissi/module-stripe-webhook-signature-bypass/license)](https://packagist.org/packages/aimanecouissi/module-stripe-webhook-signature-bypass) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-stripe-webhook-signature-bypass/require/php)](https://packagist.org/packages/aimanecouissi/module-stripe-webhook-signature-bypass)
 
-Allows **local** testing of Stripe webhooks by bypassing signature verification, so you can replay real webhook payloads against your Magento endpoint when Stripe can’t reach your machine. **Development use only — do not enable in production.**
+Allows **local** testing of Stripe webhooks by bypassing signature verification, so you can replay real webhook payloads against your Magento endpoint when Stripe can’t reach your machine. Also suppresses the Stripe admin notification **"Webhooks Unconfigured"** to reduce noise during development. **Development use only — do not enable in production.**
 
 ## Installation
 ```bash
