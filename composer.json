@@ -1,6 +1,6 @@
 {
     "name": "aimanecouissi/module-stripe-webhook-signature-bypass",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Allow local testing of Stripe webhooks by bypassing signature verification",
     "type": "magento2-module",
     "require": {
