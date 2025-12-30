@@ -6,7 +6,7 @@
     "require": {
         "php": "~8.3.0||~8.4.0",
         "magento/framework": "103.0.*",
-        "stripe/module-payments": "4.4.*"
+        "stripe/stripe-payments": "4.4.*"
     },
     "license": [
         "MIT"
