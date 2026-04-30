@@ -1,0 +1,41 @@
+{
+    "name": "aimanecouissi/module-stripe-webhook-signature-bypass",
+    "version": "1.0.0",
+    "description": "Bypass signature checks for Stripe webhooks",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "stripe",
+        "webhook",
+        "signature-bypass"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-stripe-webhook-signature-bypass",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*",
+        "stripe/stripe-payments": "4.4.*"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-stripe-webhook-signature-bypass/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-stripe-webhook-signature-bypass"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\StripeWebhookSignatureBypass\\": ""
+        }
+    }
+}
